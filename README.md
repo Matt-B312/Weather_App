@@ -25,4 +25,4 @@ This is a Weather App that I did for fun
 
 ## Getting Started
 
-Link for the site is 
+Link for the site is https://weather-app-liart-omega.vercel.app/
