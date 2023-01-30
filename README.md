@@ -15,7 +15,7 @@ This is a Weather App that I did for fun
 
 ## Built With:
 
-- React
+- React.js
 - HTML
 - JavaScript
 - CSS
