@@ -9,14 +9,40 @@ body {
 }
 
 .app {
-  background-image: url('./assets/x3he27g9y8741.jpeg');
+  background-image: url('./assets/sunnyday.gif');
   background-size: cover;
   background-position: center;
   transition: 0.4s ease-out;
 }
 
 .app.warm {
-  background-image: url('./assets/depositphotos_218888748-stock-photo-trees-grass-backyard-sunny-day.jpeg');
+  background-image: url('./assets/sunnyday.gif');
+  background-size: 100% 100%;
+}
+
+.app.snow {
+  background-image: url('./assets/snowfall2.gif');
+  background-size: 100% 100%;
+}
+
+.app.thunderstorm {
+  background-image: url('./assets/thunderstorm.gif');
+  background-size: 100% 100%;
+}
+
+.app.clouds {
+  background-image: url('./assets/cloudy.gif');
+  background-size: 100% 100%;
+}
+
+.app.rain {
+  background-image: url('./assets/rain.gif');
+  background-size: 100% 100%;
+}
+
+.app.drizzle {
+  background-image: url('./assets/Soft\ autumn\ rain.gif');
+  background-size: 100% 100%;
 }
 
 main {
