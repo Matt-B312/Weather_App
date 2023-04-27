@@ -9,7 +9,7 @@ This is a Weather App that I did for fun
 
 ## Screen Shots
 
-* ![Imgur](https://i.imgur.com/uNxYOGQ.jpg)
+* ![Imgur](https://i.imgur.com/eFapFbT.png)
 
 
 
