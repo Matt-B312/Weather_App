@@ -33,6 +33,22 @@ function App() {
     return `${day} ${date} ${month} ${year}`
   }
 
+  
+  const time = (date) => {
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let amPm = ( (hours < 12) ? "am" : "pm" );
+    if ( hours === 0) {
+      hours = "12" ;
+    } else if ( hours > 12 ) {
+      hours = (hours - 12);
+    }
+
+    return `${hours} : ${minutes} ${amPm}`
+  }
+
+
+
   return (
     <div className={(typeof weather.weather != "undefined") ? 
         ((weather.weather[0].main === "Clear") ? 'app warm' :
@@ -42,6 +58,7 @@ function App() {
          (weather.weather[0].main === "Rain") ? 'app rain' :
          (weather.weather[0].main === "Drizzle") ? 'app drizzle' : 'app') : 'app'}>
       <main>
+        
         <div className="search-box">
           <input 
             type="text"
@@ -63,6 +80,7 @@ function App() {
               {Math.round(weather.main.temp)}°c
             </div>
             <div className="weather">{weather.weather[0].main}</div>
+            <div className="time">{time(new Date)}</div>
           </div>
         </div>
         ) : ('')}
